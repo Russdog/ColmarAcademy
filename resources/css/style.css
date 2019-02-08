@@ -5,19 +5,53 @@
   display: flex;
   position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
   height: 64px;
-  border: 1px solid black;
+  background-color: white;
 }
 
 .logo {
-  display:flex;
+  display: flex;
   flex-grow: 1;
+  align-items: center;
+  padding-left: 1.5rem;
+  height: 100%;
 }
 
 .nav {
   display:flex;
+  align-items: center;
+}
+
+.nav li {
+  padding-right: 1rem;
+}
+
+.nav #sign {
+  padding-right: 1.5rem;
+}
+
+#colmar {
+font-weight: bold;
+}
+
+/* First Section */
+
+.firstContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: lightgrey;
+  margin-top: 4rem;
+
 }
 
 .firstContainerImage {
-  margin: 32px 24px;
+  padding: 2rem 1.5rem;
+  width: 60%;
+}
+
+.firstContainerImage img {
+  width: 100%;
+  height: auto;
 }
