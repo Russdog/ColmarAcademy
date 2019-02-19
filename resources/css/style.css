@@ -43,9 +43,9 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
 }
 
-h1 { font-size: 2rem; }
+h1 { font-size: 2rem; color: rgb(22.4, 54.1, 43.5) }
 h2 { font-size: 1.5rem; }
-h3 { font-size: 1.3rem; }
+h3 { font-size: 1.3rem; color: rgb(75.7, 87.5, 83.5); }
 h4 { font-size: 1rem; }
 h5 { font-size: 0.8rem; }
 h6 { font-size: 0.7rem; }
@@ -53,7 +53,7 @@ h6 { font-size: 0.7rem; }
 body {
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
-  color: rgb(64,64,64);
+  color: rgb(32.9, 61.2, 51.8);
 }
 
 /* Header */
@@ -103,7 +103,7 @@ font-weight: bold;
 .firstContainer {
   display: flex;
   flex-flow: row nowrap;
-  background-color: lightgrey;
+  background-color: rgb(155, 202, 187);
   margin-top: 4rem;
 }
 
@@ -132,10 +132,21 @@ font-weight: bold;
 
 .start-btn {
   color: white;
-  background-color: black;
+  background-color: rgb(22.4, 54.1, 43.5);
   align-items: center;
   margin-top: 2rem;
   border-radius: 4px;
+  width: 20rem;
+  transition-property: background-color;
+  transition-duration: 750ms;
+}
+
+.start-btn:hover {
+  background-color: rgb(45.9, 69.8, 62);
+}
+
+.start-btn a:hover {
+  color: rgb(250, 235, 215);
 }
 
 .start-btn p {
@@ -143,6 +154,7 @@ font-weight: bold;
   justify-content: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  width: 100%;
 }
 
 /* Second Section */
@@ -209,13 +221,13 @@ font-weight: bold;
 }
 
 .productInfo a {
-  color: blue;
+  color: rgb(22.4, 54.1, 43.5);
 }
 
 /* Third Section */
 
 .thirdContainer {
-  background-color: lightgrey;
+  background-color: rgb(155, 202, 187);
 }
 
 .ContainerTitle h2 {
@@ -264,7 +276,8 @@ font-weight: bold;
 .containerTitle {
   display: flex;
   width: 100%;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   justify-content: center;
 }
 
@@ -288,7 +301,6 @@ font-weight: bold;
 
 .leftColumn-finalCtr p {
   padding-bottom: 2rem;
-  border-bottom: dotted grey 1px;
 }
 
 
@@ -303,14 +315,18 @@ font-weight: bold;
   align-items: center;
 }
 
-#greyBlock {
-  background-color: lightgrey;
+#colouredBlock {
+  background-color: rgb(155, 202, 187);
 }
 
 .thesisInfo img {
   height: auto;
   width: 35%;
   padding: 1rem;
+}
+
+.finalContainer {
+  border-bottom: dotted rgb(45.9, 69.8, 62) 1px;
 }
 
 /* Footer */
