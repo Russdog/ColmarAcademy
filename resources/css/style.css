@@ -264,6 +264,7 @@ nav.mobiHeader, nav.mobiHeader ul {
   display: flex;
   flex-flow: column nowrap;
   width: 40%;
+  border-left: dotted rgb(75.7, 87.5, 83.5) 0.4px;
 }
 
 .productImage {
@@ -403,8 +404,8 @@ nav.mobiHeader, nav.mobiHeader ul {
     flex-direction: column;
     padding-left: 0px;
     background-color: white;
-    border-bottom: dotted rgb(45.9, 69.8, 62) 0.5px;
-    border-top: dotted rgb(45.9, 69.8, 62) 0.5px;
+    border-bottom: dotted rgb(75.7, 87.5, 83.5) 0.4px;
+    border-top: dotted rgb(75.7, 87.5, 83.5) 0.4px;
 }
 
   .mobiInfoContainer {
@@ -482,7 +483,7 @@ nav.mobiHeader, nav.mobiHeader ul {
 }
 
 .finalContainer {
-  border-bottom: dotted rgb(45.9, 69.8, 62) 1px;
+  border-bottom: dotted rgb(75.7, 87.5, 83.5) 0.4px;
 }
 
 .mobileftColumn-finalCtr {
@@ -531,7 +532,15 @@ nav.mobiHeader, nav.mobiHeader ul {
 }
 
 .footer li {
-  margin-right: 1rem;
+  margin-right: .2rem;
+}
+
+.socialIcons {
+  text-align: center;
+}
+
+.socialIcons i {
+  padding: 1rem 0.5rem;
 }
 
 /* Footer - Mobile */
