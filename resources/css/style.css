@@ -264,7 +264,7 @@ nav.mobiHeader, nav.mobiHeader ul {
   display: flex;
   flex-flow: column nowrap;
   width: 40%;
-  border-left: dotted rgb(75.7, 87.5, 83.5) 0.4px;
+  border-left: dotted rgb(75.7, 87.5, 83.5) 0.5px;
 }
 
 .productImage {
@@ -404,8 +404,8 @@ nav.mobiHeader, nav.mobiHeader ul {
     flex-direction: column;
     padding-left: 0px;
     background-color: white;
-    border-bottom: dotted rgb(75.7, 87.5, 83.5) 0.4px;
-    border-top: dotted rgb(75.7, 87.5, 83.5) 0.4px;
+    border-bottom: dotted rgb(75.7, 87.5, 83.5) 0.5px;
+    border-top: dotted rgb(75.7, 87.5, 83.5) 0.5px;
 }
 
   .mobiInfoContainer {
@@ -418,7 +418,7 @@ nav.mobiHeader, nav.mobiHeader ul {
   }
 
   .mobiInfoContainer p {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1.5rem 1rem;
     text-align: left;
     margin-bottom: .5rem;
     background-color: rgb(155, 202, 187);
@@ -483,7 +483,7 @@ nav.mobiHeader, nav.mobiHeader ul {
 }
 
 .finalContainer {
-  border-bottom: dotted rgb(75.7, 87.5, 83.5) 0.4px;
+  border-bottom: dotted rgb(75.7, 87.5, 83.5) 0.5px;
 }
 
 .mobileftColumn-finalCtr {
