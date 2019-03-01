@@ -110,7 +110,7 @@ font-weight: bold;
 
 /* Header For Mobile  */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 
   .header .logo, .header ul {
     display: none;
@@ -540,7 +540,7 @@ nav.mobiHeader, nav.mobiHeader ul {
 }
 
 .socialIcons i {
-  padding: 1rem 0.5rem;
+  padding: 1rem 1rem;
 }
 
 /* Footer - Mobile */
